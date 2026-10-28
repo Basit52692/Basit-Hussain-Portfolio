@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="180" viewBox="0 0 1100 180">
+<rect width="1100" height="180" fill="#0b1220"/>
+<style>.b{fill:#13233a;stroke:#5aa7ff;stroke-width:2}.t{fill:#eef6ff;font-family:Arial,sans-serif;font-size:18px;font-weight:bold}.s{fill:#9fb3c8;font-family:Arial,sans-serif;font-size:12px}.a{stroke:#5aa7ff;stroke-width:3;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5aa7ff"/></marker></defs>
+<g transform="translate(20,45)"><rect class="b" rx="12" width="160" height="90"/><text class="t" x="80" y="40" text-anchor="middle">Extract</text><text class="s" x="80" y="63" text-anchor="middle">HTML / Selenium</text></g>
+<line class="a" x1="185" y1="90" x2="220" y2="90"/>
+<g transform="translate(225,45)"><rect class="b" rx="12" width="160" height="90"/><text class="t" x="80" y="40" text-anchor="middle">Clean</text><text class="s" x="80" y="63" text-anchor="middle">Normalize fields</text></g>
+<line class="a" x1="390" y1="90" x2="425" y2="90"/>
+<g transform="translate(430,45)"><rect class="b" rx="12" width="160" height="90"/><text class="t" x="80" y="40" text-anchor="middle">Deduplicate</text><text class="s" x="80" y="63" text-anchor="middle">Name + phone</text></g>
+<line class="a" x1="595" y1="90" x2="630" y2="90"/>
+<g transform="translate(635,45)"><rect class="b" rx="12" width="160" height="90"/><text class="t" x="80" y="40" text-anchor="middle">Validate</text><text class="s" x="80" y="63" text-anchor="middle">Missing / quality</text></g>
+<line class="a" x1="800" y1="90" x2="835" y2="90"/>
+<g transform="translate(840,45)"><rect class="b" rx="12" width="160" height="90"/><text class="t" x="80" y="40" text-anchor="middle">Export</text><text class="s" x="80" y="63" text-anchor="middle">CSV + Excel</text></g>
+</svg>
