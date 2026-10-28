@@ -1,0 +1,51 @@
+/* Approved v3.4 hero typography — deployed unchanged in v3.5. */
+#home .hero-copy {
+  width: min(720px, calc(100% - 40px));
+  max-width: 720px;
+  padding: 0;
+}
+#home #hero-title {
+  max-width: 720px;
+  margin: 22px auto 0;
+  font-size: clamp(42px, 4.6vw, 62px);
+  line-height: 1.1;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+#home #hero-title > span,
+#home #hero-title > em { display: block; }
+#home #hero-title > em { font-style: italic; }
+#home .hero-statement {
+  max-width: 540px;
+  margin: 21px auto 0;
+  font: 16px/1.75 var(--sans);
+  letter-spacing: 0;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+#home .hero-tools { display: none; }
+#home .hero-actions { margin-top: 28px; }
+@media (max-width: 560px) {
+  #home {
+    align-items: center;
+    padding-top: 0;
+  }
+  #home #hero-title {
+    max-width: 100%;
+    margin-top: 22px;
+    font-size: clamp(30px, 8.3vw, 36px);
+    line-height: 1.14;
+    letter-spacing: -.028em;
+  }
+  #home .hero-statement {
+    max-width: 330px;
+    margin-top: 19px;
+    font-size: 14px;
+    line-height: 1.75;
+  }
+  #home .hero-actions { margin-top: 25px; }
+}
+@media (max-width: 359px) {
+  #home #hero-title { font-size: 28px; }
+  #home .hero-statement { font-size: 13px; }
+}

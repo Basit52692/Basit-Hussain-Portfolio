@@ -1,166 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-background="refined">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#080c13">
-  <meta name="description" content="Basit Hussain — Data Analyst portfolio featuring Power BI, Excel, SQL, Python and web data automation projects.">
-  <meta name="author" content="Basit Hussain">
-  <link rel="canonical" href="https://basit52692.github.io/Basit-Hussain-Portfolio/">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="description" content="Basit Hussain is a Data Analyst in Karachi working with Python, SQL, Power BI, Excel and Data Science. Explore data projects, dashboards and analytical case studies.">
+  <meta name="theme-color" content="#187a72">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Basit Hussain — Data Analyst Portfolio">
-  <meta property="og:title" content="Basit Hussain — Data Analyst">
-  <meta property="og:description" content="Power BI, Excel, SQL, Python and web data automation projects by Basit Hussain.">
+  <meta property="og:title" content="Basit Hussain | Data Analyst & Data Science Portfolio">
+  <meta property="og:description" content="Turning Complex Data Into Clear Decisions. Explore Python, SQL, Power BI and Excel projects.">
   <meta property="og:url" content="https://basit52692.github.io/Basit-Hussain-Portfolio/">
-  <meta property="og:image" content="https://basit52692.github.io/Basit-Hussain-Portfolio/assets/powerbi-executive-summary.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Basit Hussain — Data Analyst">
-  <meta name="twitter:description" content="Data Analyst portfolio: Power BI, Excel, SQL, Python and web data automation.">
-  <meta name="twitter:image" content="https://basit52692.github.io/Basit-Hussain-Portfolio/assets/powerbi-executive-summary.png">
-  <title>Basit Hussain — Data Analyst</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%23080c13%22/><text x=%2212%22 y=%2243%22 font-family=%22Arial%22 font-weight=%22700%22 font-size=%2232%22 fill=%22%2370b8ff%22>BH</text></svg>">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=final-polish">
-  <script src="script.js?v=final-polish" defer></script>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Basit Hussain",
-    "jobTitle":"Data Analyst",
-    "url":"https://basit52692.github.io/Basit-Hussain-Portfolio/",
-    "image":"https://basit52692.github.io/Basit-Hussain-Portfolio/assets/basit-portrait.webp",
-    "email":"mailto:basithussain620@gmail.com",
-    "sameAs":["https://www.linkedin.com/in/basit-hussain-749874243/","https://github.com/Basit52692"]
-  }
-  </script>
+  <meta property="og:image" content="https://basit52692.github.io/Basit-Hussain-Portfolio/assets/portrait.webp">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://basit52692.github.io/Basit-Hussain-Portfolio/">
+  <title>Basit Hussain | Data Analyst & Data Science Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="background.css">
+  <link rel="stylesheet" href="hero.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="page-progress" aria-hidden="true"><span></span></div>
-
-  <header class="site-header" id="top">
-    <div class="container nav-wrap">
-      <a class="brand" href="#home" aria-label="Basit Hussain home"><span class="brand-mark">BH<span>.</span></span><span class="brand-name">BASIT HUSSAIN</span></a>
-      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
-      <nav class="nav" id="primary-nav" aria-label="Main navigation">
-        <a href="#projects">Projects</a>
-        <a href="#profile">Profile</a>
-        <a href="#experience">Experience</a>
-        <a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
-      </nav>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#home" class="wordmark" aria-label="Basit Hussain, home">Basit Hussain<span class="mark-dot" aria-hidden="true"></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#approach">Approach</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#resume">Resume</a><a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+    </nav>
+    <div class="mobile-nav"><a href="#resume">Resume</a><button id="menu-open" aria-label="Open navigation menu" aria-haspopup="dialog">Menu <span class="menu-lines" aria-hidden="true"></span></button></div>
+  </div>
+  <div class="reading-progress" aria-hidden="true"></div>
+</header>
+<main id="main" tabindex="-1">
+<div id="home-view">
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <canvas id="network" aria-hidden="true"></canvas>
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Data Analyst <span class="separator">/</span> Karachi, Pakistan</p>
+      <h1 id="hero-title"><span>Turning Complex Data</span> <em>Into Clear Decisions.</em></h1>
+      <p class="hero-statement">I'm Basit, a Data Analyst working with Python, SQL, Power BI and Excel, with a growing focus on Data Science.</p>
+      <p class="hero-tools">Python <span>·</span> SQL <span>·</span> Power BI <span>·</span> Excel</p>
+      <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="assets/resume.pdf" download="Basit_Hussain_CV_Data_Analyst.pdf">Download CV <span aria-hidden="true">↓</span></a></div>
     </div>
-  </header>
-
-  <main id="main">
-    <section class="hero" id="home">
-      <div class="hero-glow" aria-hidden="true"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <div class="availability"><span></span> Open to Data Analyst &amp; BI opportunities</div>
-          <p class="eyebrow"><span></span> DATA ANALYST · KARACHI, PAKISTAN</p>
-          <h1>Turning messy data into <em>clear decisions.</em></h1>
-          <p class="hero-lede">I work across data collection, cleaning, analysis and reporting—using Power BI, Excel, SQL and Python to turn raw information into useful outputs.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↗</span></a>
-            <a class="button button-ghost" href="assets/Basit_Hussain_CV_Data_Analyst.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
-          </div>
-          <div class="tool-strip" aria-label="Core tools"><span>POWER BI</span><span>EXCEL</span><span>SQL</span><span>PYTHON</span><span>PANDAS</span></div>
-        </div>
-        <div class="portrait-card reveal">
-          <img src="assets/basit-portrait.webp" alt="Professional portrait of Basit Hussain" width="1145" height="1374" fetchpriority="high">
-          <div class="portrait-overlay"><span></span> Data-driven by practice.</div>
-        </div>
+    <div class="hero-foot container"><a href="#work" class="scroll-cue"><span class="scroll-line" aria-hidden="true"></span> A few questions I've explored</a><button id="motion-toggle" class="motion-control" aria-pressed="false"><span aria-hidden="true">Ⅱ</span> <span class="motion-label">Pause motion</span></button></div>
+  </section>
+  <section id="work" class="work-section container section" aria-labelledby="work-title">
+    <div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="work-title">Questions explored.<br><em>Evidence shared.</em></h2></div><p class="section-intro">Dashboards, queries and data pipelines.<br>Each project opens up the process,<br class="desktop-only"> the findings and the limits.</p></div>
+    <div class="gallery-controls">
+      <div class="filter-row" role="group" aria-label="Filter by project type"><span class="filter-label">Focus</span><button class="filter active" data-type="all" aria-pressed="true">All work</button><button class="filter" data-type="analytics" aria-pressed="false">Data Analytics</button><button class="filter" data-type="automation" aria-pressed="false">Automation</button></div>
+      <div class="tools-row"><div class="filter-row tools" role="group" aria-label="Filter by tool"><span class="filter-label">Tool</span><button class="filter active" data-tool="all" aria-pressed="true">All tools</button><button class="filter" data-tool="Power BI" aria-pressed="false">Power BI</button><button class="filter" data-tool="Excel" aria-pressed="false">Excel</button><button class="filter" data-tool="SQL" aria-pressed="false">SQL</button><button class="filter" data-tool="Python" aria-pressed="false">Python</button></div><p id="result-count" role="status" aria-live="polite">5 projects</p></div>
+    </div>
+    <div id="project-grid" class="project-grid"></div>
+    <div id="empty-work" class="empty-state" hidden><p class="eyebrow">A narrower question</p><h3>No projects in this combination.</h3><p>Try another tool, or return to the full collection.</p><button class="button secondary" id="clear-filters">Clear filters <span aria-hidden="true">↗</span></button></div>
+    <p class="collection-note"><span aria-hidden="true">↳</span> The Excel, SQL and Python studies explore the same retail practice dataset from different angles.</p>
+  </section>
+  <section id="approach" class="story-section section" aria-labelledby="story-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">02 / A closer look</p><h2 id="story-title">Good analysis starts<br><em>before the chart.</em></h2></div><p class="section-intro">Follow a real portfolio workflow.<br>See how collected records become<br>structured, reviewable data.</p></div>
+      <div class="story-layout">
+        <div class="story-narrative"><span class="small-tag">Business Lead Data Pipeline</span><h3 id="story-stage-title">Start with the source.</h3><p id="story-stage-copy"></p><div class="story-number"><strong id="story-number">168</strong><span id="story-number-label">raw records</span></div><div class="story-steps" role="group" aria-label="Data pipeline stages"><button class="story-step active" data-stage="0" aria-pressed="true"><span>01</span> Collect</button><button class="story-step" data-stage="1" aria-pressed="false"><span>02</span> Validate</button><button class="story-step" data-stage="2" aria-pressed="false"><span>03</span> Classify</button></div><a href="#case/leads" class="text-link">Explore the full methodology <span aria-hidden="true">↗</span></a></div>
+        <div class="story-visual"><div class="chart-topline"><span class="eyebrow">From records to a useful report</span><span class="dataset-label">Synthetic project data</span></div><svg id="pipeline-chart" role="img" aria-labelledby="pipeline-title pipeline-desc"><title id="pipeline-title">Business lead pipeline</title><desc id="pipeline-desc">168 source records, 150 unique records after deduplication. Classification gives 54 potential leads, 78 existing website records, and 18 needing review.</desc></svg><div id="story-groups" class="chart-groups" hidden></div><p id="story-status" class="chart-status" aria-live="polite"></p><details class="data-details"><summary>View the data &amp; definitions <span aria-hidden="true">+</span></summary><div class="table-wrap"><table><caption>Documented synthetic pipeline outputs</caption><thead><tr><th scope="col">Measure</th><th scope="col">Records</th><th scope="col">Definition</th></tr></thead><tbody><tr><th scope="row">Collected</th><td>168</td><td>Rows in the supplied raw CSV</td></tr><tr><th scope="row">Deduplicated</th><td>150</td><td>Unique records in the processed CSV</td></tr><tr><th scope="row">Duplicates removed</th><td>18</td><td>Difference between raw and unique counts</td></tr><tr><th scope="row">Potential lead</th><td>54</td><td>Website missing, phone available</td></tr><tr><th scope="row">Existing website</th><td>78</td><td>Remaining records with website and no critical review status</td></tr><tr><th scope="row">Needs review</th><td>18</td><td>Missing phone or address after the potential-lead rule</td></tr></tbody></table></div><p>Source: public project's processed CSV and summary.json. Potential-lead status is a rule, not proof of a sales opportunity. All records are synthetic; no employer or client data is shown.</p></details></div>
       </div>
-    </section>
-
-    <section class="section projects" id="projects" aria-labelledby="projects-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <div><span class="section-kicker">01 / SELECTED WORK</span><h2 id="projects-title">Five projects. Five ways of working with data.</h2></div>
-          <a class="inline-link" href="https://github.com/Basit52692" target="_blank" rel="noopener noreferrer">All GitHub projects ↗</a>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card reveal">
-            <button class="project-image project-open" type="button" data-dialog="project-powerbi" aria-label="Open Power BI project details"><img src="assets/powerbi-executive-summary.png" alt="Hospital emergency room Power BI executive summary dashboard" loading="lazy"></button>
-            <div class="project-card-body"><div class="project-meta"><span>01</span><span>POWER BI</span></div><h3>Hospital ER Analytics</h3><p>Interactive dashboard for patient volume, referrals, wait time, satisfaction and demographics.</p><div class="tags"><span>DAX</span><span>Power Query</span><span>Data Modeling</span></div><div class="card-links"><button class="text-button project-open" type="button" data-dialog="project-powerbi">View details ↗</button><a href="https://github.com/Basit52692/Hospital-Executive-Summary-PowerBI" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
-          </article>
-
-          <article class="project-card reveal">
-            <button class="project-image project-open" type="button" data-dialog="project-excel" aria-label="Open Excel project details"><img src="assets/excel-sales-dashboard.png" alt="Excel sales and profitability dashboard" loading="lazy"></button>
-            <div class="project-card-body"><div class="project-meta"><span>02</span><span>EXCEL</span></div><h3>Sales &amp; Profitability</h3><p>10,000-record retail dashboard with KPI reporting, filters, validation and profitability analysis.</p><div class="tags"><span>XLOOKUP</span><span>Formulas</span><span>Dashboard</span></div><div class="card-links"><button class="text-button project-open" type="button" data-dialog="project-excel">View details ↗</button><a href="https://github.com/Basit52692/Excel-Sales-Performance-Dashboard" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
-          </article>
-
-          <article class="project-card reveal">
-            <button class="project-image project-open" type="button" data-dialog="project-sql" aria-label="Open SQL project details"><div class="code-visual" aria-hidden="true"><span>WITH monthly_sales AS (</span><span>&nbsp;&nbsp;SELECT month, SUM(sales)</span><span>&nbsp;&nbsp;FROM sales_orders</span><span>&nbsp;&nbsp;GROUP BY month</span><span>)</span><span class="code-accent">LAG · CTE · RANK · CASE</span></div></button>
-            <div class="project-card-body"><div class="project-meta"><span>03</span><span>POSTGRESQL</span></div><h3>SQL Sales Analysis</h3><p>Business-focused analysis using CTEs, window functions, data-quality checks and trend comparisons.</p><div class="tags"><span>CTEs</span><span>Window Functions</span><span>PostgreSQL</span></div><div class="card-links"><button class="text-button project-open" type="button" data-dialog="project-sql">View details ↗</button><a href="https://github.com/Basit52692/SQL-Sales-Analysis" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
-          </article>
-
-          <article class="project-card reveal">
-            <button class="project-image project-open" type="button" data-dialog="project-python" aria-label="Open Python project details"><img src="assets/python-annual-sales-trend.png" alt="Python generated annual sales trend chart" loading="lazy"></button>
-            <div class="project-card-body"><div class="project-meta"><span>04</span><span>PYTHON</span></div><h3>Retail Analysis Pipeline</h3><p>Reusable pandas pipeline covering validation, cleaning, feature engineering, KPIs and visual analysis.</p><div class="tags"><span>pandas</span><span>NumPy</span><span>Matplotlib</span></div><div class="card-links"><button class="text-button project-open" type="button" data-dialog="project-python">View details ↗</button><a href="https://github.com/Basit52692/Python-Sales-Analysis" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
-          </article>
-
-          <article class="project-card reveal project-card-wide">
-            <button class="project-image project-open" type="button" data-dialog="project-web" aria-label="Open web data project details"><img src="assets/web-data-report-preview.png" alt="Business lead data pipeline Excel report preview" loading="lazy"></button>
-            <div class="project-card-body"><div class="project-meta"><span>05</span><span>WEB DATA &amp; AUTOMATION</span></div><h3>Business Lead Data Pipeline</h3><p>Privacy-safe demo pipeline for extraction, validation, deduplication, website classification and Excel reporting.</p><div class="tags"><span>Selenium</span><span>BeautifulSoup</span><span>OpenPyXL</span><span>pytest</span></div><div class="card-links"><button class="text-button project-open" type="button" data-dialog="project-web">View details ↗</button><a href="https://github.com/Basit52692/Business-Lead-Data-Pipeline" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section profile" id="profile" aria-labelledby="profile-title">
-      <div class="container profile-grid">
-        <div class="profile-copy reveal">
-          <span class="section-kicker">02 / PROFILE</span>
-          <h2 id="profile-title">Practical analysis, commercial context.</h2>
-          <p class="profile-lede">My current work focuses on business data collection, validation and clean delivery. Earlier pharmaceutical sales experience adds a practical understanding of targets, territory performance and reporting.</p>
-          <p>BS Computer Science coursework completed; final results pending. I’m building toward data science through hands-on analytical projects and real-world data workflows.</p>
-          <div class="mini-links"><a href="assets/Google_Data_Analytics_Certificate.pdf" target="_blank" rel="noopener noreferrer">Google Data Analytics ↗</a><a href="assets/SMIT_AI_Data_Science_Certificate.jpeg" target="_blank" rel="noopener noreferrer">AI &amp; Data Science — SMIT ↗</a></div>
-        </div>
-        <div class="skills-panel reveal" aria-label="Technical skills">
-          <div><span>ANALYSIS</span><strong>Excel · Power BI · EDA · Data Quality</strong></div>
-          <div><span>SQL</span><strong>PostgreSQL · Joins · CTEs · Window Functions</strong></div>
-          <div><span>PYTHON</span><strong>pandas · NumPy · Matplotlib · Automation</strong></div>
-          <div><span>WEB DATA</span><strong>Selenium · BeautifulSoup · OpenPyXL</strong></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section experience" id="experience" aria-labelledby="experience-title">
-      <div class="container">
-        <div class="section-head compact reveal"><div><span class="section-kicker">03 / EXPERIENCE</span><h2 id="experience-title">Experience that connects data to business.</h2></div></div>
-        <div class="experience-list">
-          <article class="experience-row reveal"><div><span class="role-date">APR 2026 — PRESENT</span><h3>Web Data Scraping / Data Analyst</h3><p class="company">Q Solution · Karachi</p></div><p>Collect, verify, clean and structure business listings; perform duplicate and missing-value checks; classify website availability; and prepare organized Excel deliverables.</p></article>
-          <article class="experience-row reveal"><div><span class="role-date">DEC 2024 — MAR 2026</span><h3>Product Executive</h3><p class="company">Highnoon Laboratories · Karachi</p></div><p>Used Excel-based reporting, KPI tracking, competitor monitoring and territory analysis to support field strategy and performance decisions.</p></article>
-          <article class="experience-row reveal"><div><span class="role-date">JAN 2022 — NOV 2024</span><h3>Medical Representative</h3><p class="company">Scilife Pharma · Karachi</p></div><p>Tracked sales KPIs, customer feedback and territory trends while developing structured reporting and commercial research experience.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact" aria-labelledby="contact-title">
-      <div class="container contact-inner reveal">
-        <span class="section-kicker">04 / CONTACT</span>
-        <h2 id="contact-title">Have a data problem?<br><em>Let's make it useful.</em></h2>
-        <p>Open to Data Analyst and BI opportunities, practical data projects and collaborations.</p>
-        <div class="contact-actions"><a class="button button-primary" href="mailto:basithussain620@gmail.com">Email me ↗</a><a href="https://www.linkedin.com/in/basit-hussain-749874243/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/Basit52692" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="tel:+923172345680">+92 317 2345680</a></div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Basit Hussain</span><span>Data Analyst · Karachi, Pakistan</span><a href="#top">Back to top ↑</a></div></footer>
-
-  <dialog class="project-dialog" id="project-powerbi"><div class="dialog-shell"><button class="dialog-close" type="button" aria-label="Close project details">×</button><div class="dialog-grid"><div class="dialog-media"><img src="assets/powerbi-executive-summary.png" alt="Hospital ER Analytics Power BI dashboard"></div><div><span class="section-kicker">POWER BI CASE STUDY</span><h2>Hospital ER Analytics</h2><p>Multi-page dashboard covering patient volume, department referrals, wait time, satisfaction and demographics across 9,216 records.</p><div class="dialog-stats"><div><strong>9,216</strong><span>patient records</span></div><div><strong>35.26</strong><span>avg. wait time</span></div><div><strong>4.99</strong><span>avg. satisfaction</span></div></div><div class="tags"><span>Power BI</span><span>DAX</span><span>Power Query</span><span>Data Modeling</span></div><div class="dialog-actions"><a class="button button-primary" href="assets/Hospital_Data_Analysis.pbix" download>Download PBIX ↓</a><a class="inline-link" href="https://github.com/Basit52692/Hospital-Executive-Summary-PowerBI" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></div></div></div></div></dialog>
-
-  <dialog class="project-dialog" id="project-excel"><div class="dialog-shell"><button class="dialog-close" type="button" aria-label="Close project details">×</button><div class="dialog-grid"><div class="dialog-media tall"><img src="assets/excel-sales-dashboard.png" alt="Excel sales dashboard"></div><div><span class="section-kicker">EXCEL CASE STUDY</span><h2>Sales &amp; Profitability Dashboard</h2><p>Interactive analysis of 10,000 practice retail records with formula-based reconciliation, filters and management KPIs.</p><div class="dialog-stats"><div><strong>10,000</strong><span>records</span></div><div><strong>17.05%</strong><span>profit margin</span></div><div><strong>3.36%</strong><span>2022 growth</span></div></div><div class="tags"><span>Excel</span><span>XLOOKUP</span><span>SUMIFS</span><span>Dashboard</span></div><div class="dialog-actions"><a class="button button-primary" href="assets/Sales_Performance_Dashboard.xlsx" download>Download workbook ↓</a><a class="inline-link" href="https://github.com/Basit52692/Excel-Sales-Performance-Dashboard" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></div></div></div></div></dialog>
-
-  <dialog class="project-dialog" id="project-sql"><div class="dialog-shell"><button class="dialog-close" type="button" aria-label="Close project details">×</button><div class="dialog-grid"><div class="dialog-media code"><div class="code-visual"><span>WITH monthly_sales AS (...)</span><span>SELECT revenue,</span><span>&nbsp;&nbsp;LAG(revenue) OVER (...)</span><span>&nbsp;&nbsp;DENSE_RANK() OVER (...)</span><span>&nbsp;&nbsp;CASE WHEN ... END</span><span class="code-accent">PostgreSQL analytical workflow</span></div></div><div><span class="section-kicker">POSTGRESQL CASE STUDY</span><h2>SQL Sales Analysis</h2><p>Business questions covering sales trends, profitability, category performance, regional analysis and discount impact using reusable SQL scripts.</p><div class="dialog-stats"><div><strong>10,000</strong><span>records</span></div><div><strong>9</strong><span>analysis scripts</span></div><div><strong>17.05%</strong><span>profit margin</span></div></div><div class="tags"><span>PostgreSQL</span><span>CTEs</span><span>LAG</span><span>DENSE_RANK</span></div><div class="dialog-actions"><a class="button button-primary" href="assets/SQL_Sales_Analysis_Professional.zip" download>Download project ↓</a><a class="inline-link" href="https://github.com/Basit52692/SQL-Sales-Analysis" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></div></div></div></div></dialog>
-
-  <dialog class="project-dialog" id="project-python"><div class="dialog-shell"><button class="dialog-close" type="button" aria-label="Close project details">×</button><div class="dialog-grid"><div class="dialog-media"><img src="assets/python-annual-sales-trend.png" alt="Python annual sales trend visualization"></div><div><span class="section-kicker">PYTHON CASE STUDY</span><h2>Retail Analysis Pipeline</h2><p>End-to-end pipeline for validation, cleaning, feature engineering, KPI computation, chart generation and processed outputs.</p><div class="dialog-stats"><div><strong>10,000</strong><span>records</span></div><div><strong>54,823</strong><span>units</span></div><div><strong>79</strong><span>loss-making rows retained</span></div></div><div class="tags"><span>Python</span><span>pandas</span><span>NumPy</span><span>Matplotlib</span></div><div class="dialog-actions"><a class="button button-primary" href="assets/Python_Sales_Analysis_Professional.zip" download>Download project ↓</a><a class="inline-link" href="https://github.com/Basit52692/Python-Sales-Analysis" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></div></div></div></div></dialog>
-
-  <dialog class="project-dialog" id="project-web"><div class="dialog-shell"><button class="dialog-close" type="button" aria-label="Close project details">×</button><div class="dialog-grid"><div class="dialog-media"><img src="assets/web-data-report-preview.png" alt="Business lead data pipeline report preview"></div><div><span class="section-kicker">WEB DATA CASE STUDY</span><h2>Business Lead Data Pipeline</h2><p>Privacy-safe demo workflow that extracts and validates business data, removes duplicates, classifies website availability and exports a structured Excel report.</p><div class="dialog-stats"><div><strong>168</strong><span>raw records</span></div><div><strong>150</strong><span>unique records</span></div><div><strong>54</strong><span>potential leads</span></div></div><div class="tags"><span>Selenium</span><span>BeautifulSoup</span><span>pandas</span><span>OpenPyXL</span></div><p class="privacy-note">Uses synthetic demo data only; no employer/client data is included.</p><div class="dialog-actions"><a class="button button-primary" href="assets/Business_Lead_Data_Extraction_Validation_Pipeline.zip" download>Download project ↓</a><a class="inline-link" href="https://github.com/Basit52692/Business-Lead-Data-Pipeline" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></div></div></div></div></dialog>
-</body>
-</html>
+      <div class="method-strip"><div><span>01</span><h4>Ask a useful question.</h4><p>Start with the decision the analysis needs to support.</p></div><div><span>02</span><h4>Check the foundations.</h4><p>Understand the grain, missingness and definitions.</p></div><div><span>03</span><h4>Make the evidence readable.</h4><p>Explain what the result shows, and what it cannot.</p></div></div>
+    </div>
+  </section>
+  <section id="about" class="about-section container section" aria-labelledby="about-title">
+    <div class="about-image"><img src="assets/portrait.webp" alt="Basit Hussain's professional portrait" width="1145" height="1374" loading="lazy"><span class="portrait-caption">Basit Hussain · Karachi, Pakistan</span></div>
+    <div class="about-copy"><p class="eyebrow">03 / About me</p><h2 id="about-title">Curiosity,<br><em>with a method.</em></h2><p class="large-copy">I work where raw data meets<br class="desktop-only"> a practical business question.</p><p>My current work focuses on business data collection, validation and clean delivery. Earlier experience in pharmaceutical sales brings an understanding of targets, territory performance and reporting.</p><p>I'm building toward data science through hands-on analytical projects and reproducible workflows.</p><div class="skill-groups"><div><h3>Analysis &amp; reporting</h3><p>Excel · Power BI · DAX · Power Query</p></div><div><h3>Query &amp; explore</h3><p>PostgreSQL · CTEs · Window functions</p></div><div><h3>Collect &amp; automate</h3><p>Python · pandas · Selenium · BeautifulSoup</p></div></div><div class="credential-links"><a href="https://basit52692.github.io/Basit-Hussain-Portfolio/assets/Google_Data_Analytics_Certificate.pdf" target="_blank" rel="noopener">Google Data Analytics <span aria-hidden="true">↗</span></a><a href="https://basit52692.github.io/Basit-Hussain-Portfolio/assets/SMIT_AI_Data_Science_Certificate.jpeg" target="_blank" rel="noopener">AI &amp; Data Science · SMIT <span aria-hidden="true">↗</span></a></div></div>
+  </section>
+  <section id="experience" class="experience-section container section" aria-labelledby="experience-title"><div class="section-heading"><div><p class="eyebrow">04 / Experience</p><h2 id="experience-title">Data skills.<br><em>Commercial perspective.</em></h2></div><a class="text-link" href="#resume">Read my resume <span aria-hidden="true">↗</span></a></div><div class="experience-list"><article><span class="experience-date">Apr 2026 — Present</span><div><h3>Web Data Scraping / Data Analyst</h3><p class="company">Q Solution · Karachi</p></div><p>Collect, verify, clean and structure business listings. Check duplicates and missing values, classify website availability and prepare Excel deliverables.</p></article><article><span class="experience-date">Dec 2024 — Mar 2026</span><div><h3>Product Executive</h3><p class="company">Highnoon Laboratories · Karachi</p></div><p>Excel reporting, KPI tracking, competitor monitoring and territory analysis to support field strategy and performance decisions.</p></article><article><span class="experience-date">Jan 2022 — Nov 2024</span><div><h3>Medical Representative</h3><p class="company">Scilife Pharma · Karachi</p></div><p>Sales KPI tracking, customer feedback and territory trends, with structured reporting and commercial research.</p></article></div></section>
+  <section id="contact" class="contact-section section" aria-labelledby="contact-title"><div class="container"><p class="eyebrow">05 / Get in touch</p><h2 id="contact-title">Let's make<br><em>data useful.</em><span class="contact-star" aria-hidden="true">✳</span></h2><div class="contact-bottom"><div><p>Open to Data Analyst &amp; BI opportunities.</p><a class="email-link" href="mailto:basithussain620@gmail.com">basithussain620@gmail.com <span aria-hidden="true">↗</span></a></div><div class="contact-links"><a href="https://linkedin.com/in/basit-hussain-749874243/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/Basit52692" target="_blank" rel="noopener">GitHub ↗</a><a href="assets/resume.pdf" download="Basit_Hussain_CV_Data_Analyst.pdf">Download CV ↓</a></div></div></div></section>
+</div>
+<div id="case-view" hidden></div>
+<div id="resume-view" hidden></div>
+</main>
+<footer class="site-footer container"><a href="#home" class="wordmark">Basit Hussain<span class="mark-dot" aria-hidden="true"></span></a><p>Thoughtful analysis. Clear communication.</p><a href="#home">Back to top ↑</a></footer>
+<dialog id="navigation-dialog" aria-labelledby="menu-title"><div class="mobile-menu-head"><span id="menu-title" class="wordmark">Basit Hussain</span><button id="menu-close" aria-label="Close navigation menu">Close ×</button></div><nav aria-label="Mobile navigation"><a href="#work">Work <span>01</span></a><a href="#approach">Approach <span>02</span></a><a href="#about">About <span>03</span></a><a href="#experience">Experience <span>04</span></a><a href="#resume">Resume <span>↗</span></a><a href="#contact">Contact <span>05</span></a></nav><a class="menu-email" href="mailto:basithussain620@gmail.com">basithussain620@gmail.com</a></dialog>
+<dialog id="figure-dialog" aria-labelledby="figure-title"><div class="figure-toolbar"><h2 id="figure-title">Project figure</h2><div><button id="figure-size">Original size</button><button id="figure-close" aria-label="Close image viewer">Close ×</button></div></div><div class="figure-scroll"><img id="figure-image" alt=""></div><p id="figure-caption"></p></dialog>
+<script src="project-data.js"></script><script src="network-model.js"></script><script src="background.js"></script><script src="app.js"></script>
+</body></html>
